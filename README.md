@@ -59,20 +59,24 @@ Clear explanations of what went wrong and how to fix it, with visual diagrams sh
 
 ## Installation
 
-### Option 1: npm (Recommended)
+### One-Line Install (Recommended)
 
 ```bash
-npx @notdannycrawford/aws-deploy-skill
-```
-
-This automatically installs the skill to your Claude Code skills directory.
-
-### Option 2: Manual Installation
-
-```bash
-# Clone the skill into your Claude skills directory
+# macOS/Linux
 git clone https://github.com/NotDannyCrawford/aws-deploy-skill.git ~/.claude/skills/aws-deploy
+
+# Windows
+git clone https://github.com/NotDannyCrawford/aws-deploy-skill.git "%USERPROFILE%\.claude\skills\aws-deploy"
 ```
+
+### Alternative: Run Install Script Directly
+
+```bash
+# Download and run the installer
+curl -sL https://raw.githubusercontent.com/NotDannyCrawford/aws-deploy-skill/main/install.js | node
+```
+
+### Manual Download
 
 Or download and extract to:
 - **macOS/Linux:** `~/.claude/skills/aws-deploy/`
