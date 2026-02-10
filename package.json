@@ -1,0 +1,47 @@
+{
+  "name": "@notdannycrawford/aws-deploy-skill",
+  "version": "2.0.0",
+  "description": "Deploy any web project to AWS EC2 with Docker, automatic HTTPS, and push-to-deploy CI/CD in minutes",
+  "main": "skill.md",
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "bin": {
+    "install-aws-deploy-skill": "./install.js"
+  },
+  "keywords": [
+    "aws",
+    "ec2",
+    "docker",
+    "deployment",
+    "claude-code",
+    "devops",
+    "automation",
+    "https",
+    "caddy",
+    "ci-cd",
+    "docker-compose",
+    "infrastructure",
+    "claude-skill"
+  ],
+  "author": "Danny Crawford",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NotDannyCrawford/aws-deploy-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NotDannyCrawford/aws-deploy-skill/issues"
+  },
+  "homepage": "https://github.com/NotDannyCrawford/aws-deploy-skill#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "skill.md",
+    "references/",
+    "LICENSE",
+    "README.md",
+    "install.js"
+  ]
+}
