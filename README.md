@@ -5,6 +5,8 @@ Deploy any web project to AWS EC2 with Docker, automatic HTTPS, and push-to-depl
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-blue)](https://code.claude.com)
 
+🍍 **[View the Fun SpongeBob-Themed Site!](https://notdannycrawford.github.io/aws-deploy-skill/)** 🍍
+
 ## What This Skill Does
 
 This skill automates the deployment of web applications to AWS EC2 using a simple, single-server Docker setup. Perfect for MVPs, personal projects, and small business apps.
