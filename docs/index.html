@@ -31,8 +31,11 @@
 
             <div class="install-box">
                 <h3>Quick Install (One Command!):</h3>
-                <code>npx @notdannycrawford/aws-deploy-skill</code>
+                <code id="install-cmd">git clone https://github.com/NotDannyCrawford/aws-deploy-skill.git ~/.claude/skills/aws-deploy</code>
                 <button onclick="copyInstall()" class="btn">Copy Command 📋</button>
+                <p style="margin-top: 15px; font-size: 0.9rem; opacity: 0.8;">
+                    Windows users: Replace <code>~</code> with <code>%USERPROFILE%</code>
+                </p>
             </div>
         </section>
 
@@ -174,7 +177,8 @@
 
     <script>
         function copyInstall() {
-            navigator.clipboard.writeText('npx @notdannycrawford/aws-deploy-skill');
+            const cmd = document.getElementById('install-cmd').textContent;
+            navigator.clipboard.writeText(cmd);
             alert('Copied to clipboard! Now paste it in your terminal! 🎉');
         }
 
